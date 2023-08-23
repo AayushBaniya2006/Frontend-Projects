@@ -1,0 +1,42 @@
+*{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#uppercenterbox{
+    margin: auto;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#largetext{
+    font-size: 24px;
+}
+#smalltext{
+    font-size: 16px;
+    color: grey;
+}
+
+#outsidebox{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: lightblue;
+    
+}
+
+#image{
+    width: 200px;
+    border-radius: 30px;
+}
