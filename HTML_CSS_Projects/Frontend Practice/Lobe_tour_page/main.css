@@ -92,3 +92,50 @@
     padding-left: 25px;
     padding-top: 25px;
 }
+
+.CenterText2{
+    text-align: center;
+    width: 650px;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    padding-top: 50px;
+    display: block;
+    height: min-content;
+}
+.centertext12ndrow{
+    font-size: 50px;
+    text-align: center;
+    color: #333;
+}
+
+.downloadbutton2{
+    width: 95px;
+    height: 35px;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: #04ddb2;
+    color: white;
+    font-weight: 300;
+    border-color: white;
+    margin-bottom: 50px;
+}
+.footers{
+    display: flex;
+    justify-content: space-around;
+}
+
+.FooterRow1{
+
+}
+
+.FooterRow2{
+
+}
+
+.FooterRow3{
+
+}
+.FooterRow4{
+    
+}
