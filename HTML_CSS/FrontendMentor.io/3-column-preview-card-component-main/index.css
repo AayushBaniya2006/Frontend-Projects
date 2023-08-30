@@ -1,0 +1,89 @@
+#cars{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 100px 20px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+#sedan,#suv,#luxury{
+    width: 300px;
+    padding: 20px;
+    
+}
+#sedan{
+    background-color: hsl(31, 77%, 52%);
+}
+#suv{
+    background-color: hsl(184, 100%, 22%);
+}
+#luxury{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.attribution{
+    margin-top: 20px;
+}
+
+.CarClassification{
+    margin-top: 50px;
+    
+}
+#B1{
+    color: hsl(31, 77%, 52%);
+}
+#B1:hover{
+    color: whitesmoke;
+}
+#B2:hover{
+    color: whitesmoke;
+}
+#B3:hover{
+    color: whitesmoke;
+}
+
+.learn-more{
+    margin: 20px 0px 10px 40px;
+    padding: 7px 20px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    border-color: hsla(0, 0%, 100%, 0.75);
+}
+
+.learn-more:hover {
+    color: black;
+    background-color: transparent;
+    border-color: white;
+}
+
+/* 
+## Colors
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700
+*/
