@@ -1,0 +1,74 @@
+
+body {
+    margin: 0;
+}
+
+.logo{
+    width: 20px;     
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+}
+
+.header--container{
+    background-color: aquamarine;
+
+    margin: 0px 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.header{
+    margin: 0px;
+    background-color: aquamarine;
+    color: rgb(89, 89, 146);
+
+}
+
+.header--text{
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    font-weight: 700;
+
+    
+}
+
+.header--logotext{
+    font-size: 16px;
+    width: 100px;
+    display: inline;
+    
+}
+
+.main--img{
+    display: flex;
+    margin: auto;
+    width: 1000px;
+    min-height: fit-content;
+    max-width: 100%;
+    
+}
+main{
+    margin: 8px;
+}
+
+.main--welcometext{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+
+.main--container{
+    display: flex;
+    margin: auto;
+    width: 700px;
+    height: 300px;
+    max-width: 100%;
+    background-color: green;
+}

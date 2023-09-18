@@ -1,0 +1,17 @@
+/* Center the parent container horizontally and vertically */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the container takes up the full viewport height */
+}
+
+/* Style the centered box */
+.centered-box {
+    background-color: black;
+    width: 300px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
