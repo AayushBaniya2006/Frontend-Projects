@@ -1,6 +1,9 @@
 
 body {
     margin: 0;
+    background-color: rgb(233, 181, 112);
+    color: white;
+
 }
 
 .logo{
@@ -11,8 +14,7 @@ body {
 }
 
 .header--container{
-    background-color: aquamarine;
-
+    background-color:rgb(40, 79, 40);
     margin: 0px 50px;
     display: flex;
     justify-content: start;
@@ -21,8 +23,7 @@ body {
 }
 .header{
     margin: 0px;
-    background-color: aquamarine;
-    color: rgb(89, 89, 146);
+    background-color:rgb(40, 79, 40);
 
 }
 
@@ -37,10 +38,16 @@ body {
     
 }
 
+.header--text, .header--logotext{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    font-weight: 700;
+
+}
 .header--logotext{
-    font-size: 16px;
     width: 100px;
     display: inline;
+   
     
 }
 
@@ -64,11 +71,58 @@ main{
 }
 
 
-.main--container{
+.main--container1{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    max-width: 100%;
+    background-color: rgb(40, 79, 40);
+    padding: 20px;
+}
+
+.main--aboutus--textbox{
+    margin: 10px;
+}
+
+.main--boxes{
+    margin: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.ContactForm{
+    color: black;
+    justify-content: center;
+    text-align: center;
+}
+
+.ContactForm--text{
+    font-size: 40px;
+    margin: 1%;
+}
+
+.ContactForm--message{
+    width: 500px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    height: 50px;
+}
+.footer{
+    background-color:rgb(40, 79, 40);
     display: flex;
     margin: auto;
-    width: 700px;
-    height: 300px;
-    max-width: 100%;
-    background-color: green;
+    justify-content: space-around;
+}
+
+.footer--socialmedia{
+    display: flex;
+    gap: 2px;
+    margin: 0%;
+    flex-direction: column;
+}
+.footer--TOS{
+    display: flex;
+    flex-direction: column;
 }
